@@ -1,3 +1,10 @@
+html,
+body {
+    max-width: 100%;
+    overflow: hidden;
+    border: 0;
+}
+
 body {
     background-color: #A8DADC;
     font-family: Helvetica, Arial, sans-serif;
@@ -14,10 +21,13 @@ body {
 
 ul {
     list-style-type: none;
-    margin: -10px;
-    padding: -10px;
+    margin: 0;
     overflow: hidden;
     background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -29,11 +39,42 @@ li a {
     color: #457B9D;
     font-family: Helvetica;
     text-align: center;
-    margin-left: -65px;
-    padding: 20px 50px;
+    margin-left: -65%;
+    padding: 20px 20px;
     text-decoration: none;
 }
 
 li a:hover {
     color: #1D3557;
+}
+
+
+/*body*/
+
+.flex-container {
+    margin-top: 1%;
+    padding: 15% 35%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1D3557;
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 5px;
+    line-height: 0.2;
+}
+
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #457B9D;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 13.5px;
+    width: 500%;
+    line-height: 0;
 }
