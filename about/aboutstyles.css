@@ -50,30 +50,51 @@ li a:hover {
 
 /*body*/
 
+
+/*vertical line*/
+
+.line {
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-left-color: #A8DADC;
+    border-right-color: #A8DADC;
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 0%;
+    margin-left: 1%;
+    width: 0%;
+}
+
 .flex-container {
-    margin-top: 1%;
-    padding: 15% 35%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-container {
+    margin-top: 0%;
+    padding: 5% 2%;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-content: center;
+    width: 30%;
 }
 
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     color: #1D3557;
     font-weight: bold;
-    font-size: 100px;
-    letter-spacing: 5px;
-    line-height: 0.2;
+    font-size: 25px;
+    letter-spacing: 12px;
+    line-height: 1;
 }
 
 h2 {
     font-family: Helvetica, Arial, sans-serif;
     color: #457B9D;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
     letter-spacing: 12px;
-    width: 500%;
-    line-height: 0;
+    line-height: 1;
 }
