@@ -6,9 +6,8 @@ body {
 }
 
 body {
-    background-color: #A8DADC;
+    background-color: white;
     font-family: Helvetica, Arial, sans-serif;
-    color: #1D3557;
 }
 
 
@@ -23,7 +22,7 @@ ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: white;
+    background-color: #F1FAEE;
     position: fixed;
     left: 0;
     top: 0;
